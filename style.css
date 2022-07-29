@@ -95,8 +95,8 @@
     height: 100vh;
     background-image: url("/images/sec2-baner.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    
+    /* background-position: center; */
 }
 .sec2-tabs{
     /* margin-left: 70px; */
@@ -147,7 +147,8 @@
 }
 .button-wrap{
     margin-top: 30px;
-    margin-left: 460px;
+    display: flex;
+    justify-content: center;
 }
 .sec2-button1{
     width: 163px;
@@ -177,12 +178,14 @@
   background-image: url("/images/sec3-1.jpg");
   height: 60vh;
   background-size: cover;
+  background-position: center;
   margin-left: 10px;
 }
 .sec3-image2 {
   background-image: url("/images/sec3-2.jpg");
   height: 60vh;
   background-size: cover;
+  background-position: center;
   margin-left: 10px;
 }
 .sec3-image1 h3 {
@@ -388,6 +391,99 @@ margin-top: 150px;
     text-transform: uppercase;
     margin-top: 15px;
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 766px) {
+    .section-2{
+        height: 130vh;
+
+    }
+    .sec2-banner p{
+        font-size: 52px;
+    }
+    .sec2-button2{
+        margin-left: 40px;
+    }
+    .section-3{
+        margin-top: 100px;
+    }
+    .sec3-image1 h3{
+        padding-top: 300px;
+        padding-left: 15px;
+    }
+    .sec3-image2 h3{
+        padding-top: 300px;
+        padding-left: 15px;
+    }
+    .sec3-image1 button{
+        margin: 10px 0px 0px 10px;
+    }
+    .sec3-image2 button{
+        margin: 10px 0px 0px 10px;
+    }
+    .sec3-image1{
+        margin-left: 20px;
+        max-width: 334px;
+    }
+    .sec3-image2{
+        margin-top: 60px;
+        margin-left: 20px;
+        max-width: 334px;
+    }
+    .sec5-content{
+        padding-left: 25px;
+    }
+    .section-5{
+        height: 166vh;
+    }
+    .sec5-image{
+        padding-left: 25px;
+    }
+    .section-6{
+        margin-top: 100px;
+        background-color: #F8F8F8;
+        height: 138vh;
+    }
+    .sec6-image{
+        padding-left: 25px;
+        padding-top: 130px;
+    }
+    .sec6-content{
+        margin-top: 50px;
+        padding-left: 25px;
+    }
+    .section-7{
+        margin-top: 0px;
+    }
+    .sec7-content{
+        margin-top: 100px;
+        padding-left: 25px;
+    }
+    .sec7-content h2{
+        text-align: left;
+    }
+    .sec7-content p{
+        text-align: left;
+        margin-top: 40px;
+        margin: revert;
+    }
+
+
+
+
+
+
+
+
+
+
+
+  }
 
 
 
