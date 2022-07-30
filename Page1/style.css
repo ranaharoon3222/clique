@@ -183,7 +183,13 @@ img {
   background-position: center;
   margin-left: 20px;
   margin-bottom: 20px;
+  position: relative;
 }
+.sec3 .card-body {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+  }
 
 .sec3 h3 {
   color: white;
