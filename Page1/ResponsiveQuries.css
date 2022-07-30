@@ -1,6 +1,6 @@
 
 
-@media screen and (max-width: 766px) {
+@media all and (max-width: 768px) {
     .sec3 {
         margin-left: 0;
     }
