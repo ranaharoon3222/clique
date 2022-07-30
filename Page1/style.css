@@ -94,7 +94,7 @@ img {
 
 .section-2 {
   height: 100vh;
-  background-image: url("/images/sec2-baner.jpg");
+  background-image: url("./images/sec2-baner.jpg");
   background-size: cover;
 
   /* background-position: center; */
@@ -169,10 +169,10 @@ img {
   margin-top: 60px;
 }
 .sec3.img1 {
-  background-image: url("/images/sec3-1.jpg");
+  background-image: url("./images/sec3-1.jpg");
 }
 .sec3.img2 {
-  background-image: url("/images/sec3-2.jpg");
+  background-image: url("./images/sec3-2.jpg");
 }
 .sec3 {
   height: 400px;
@@ -307,7 +307,7 @@ img {
   margin-top: 20px;
 }
 .section-7 {
-  background-image: url("/images/sec7-1.jpg");
+  background-image: url("./images/sec7-1.jpg");
   background-size: cover;
   height: 90vh;
   margin-top: 60px;
@@ -336,7 +336,7 @@ img {
   margin: auto;
 }
 .section-8 {
-  background-image: url("/images/sec8-1new.jpg");
+  background-image: url("./images/sec8-1new.jpg");
   background-size: cover;
   background-position: center;
   height: 50vh;
