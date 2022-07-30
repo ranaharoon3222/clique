@@ -83,14 +83,14 @@
 
 .section_1_end {
     background-color: black;
-    height: 342px;
+
 }
 
 .section_1_end_text p {
     color: aliceblue;
     text-align: center;
-    position: relative;
-    top: 120px;
+    padding-top: 120px;
+    padding-bottom: 24px;
     width: 90%;
     margin: auto;
 }
@@ -98,11 +98,9 @@
 .section_1_end_text h3 {
     color: EA2E34;
     text-align: center;
-    position: relative;
-    top: 170px;
     font-size: 32px;
-    ;
     font-weight: 400;
+    padding-bottom: 120px;
 }
 
 /* ////////////////////////section_1_end///////////////////////////////////////////////////  */
@@ -163,7 +161,9 @@
 .section_2_wrapper_body p {
     text-align: center;
 }
-
+.section_2_wrapper_body .pp{
+    padding-bottom: 80px;
+}
 .section_2_body_row_1_card {
     padding: 26px;
 }
@@ -353,6 +353,9 @@
     .section_2_txt pre{
         padding-bottom: 40px;
     }
+    .section_2_body h2{
+        padding-bottom: 50px;
+    }
     .section_1_bgimg h2{
         padding: 180px 0px;
     }
@@ -361,6 +364,9 @@
     }
     .section_2_img img{
         width: 100%;
+    }
+    .section_2_wrapper_body .pp{
+        padding-bottom: 0px;
     }
     .section_3_lowerside_txt{
         left: 0px; 
