@@ -359,6 +359,9 @@
     .section_2_wrapper{
         flex-wrap: wrap-reverse !important;
     }
+    .section_2_img img{
+        width: 100%;
+    }
     .section_3_lowerside_txt{
         left: 0px; 
      top: 0px;
