@@ -11,9 +11,9 @@
 
 .wrapper {
 
-    
+
     max-width: 1280px;
-    width: 100%;
+    width: 90%;
     margin: auto;
     display: flex;
 }
@@ -75,8 +75,8 @@
 }
 
 #section_1_bgimg h2 {
-    padding-top: 300px;
-    padding-bottom: 300px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     font-size: 40px;
     font-weight: 400;
 }
@@ -91,6 +91,8 @@
     text-align: center;
     position: relative;
     top: 120px;
+    width: 90%;
+    margin: auto;
 }
 
 .section_1_end_text h3 {
@@ -113,6 +115,8 @@
     max-width: 1280px;
     margin: auto;
     padding: 80px 0px;
+    width: 90%;
+    /* flex-wrap: wrap-reverse; */
 }
 
 .section_2_img img {
@@ -133,7 +137,7 @@
 
 .section_2_txt pre {
     margin-top: 16px;
-    color: rgb(149, 149, 149);
+    color: rgb(134, 134, 134);
 }
 
 .section_2_body {
@@ -142,7 +146,7 @@
 
 .section_2_body h2 {
     text-align: center;
-    padding: 55px 0 35px 0;
+    padding: 80px 0;
 }
 
 .section_2_wrapper_body {
@@ -153,6 +157,7 @@
 
 .section_2_wrapper_body h3 {
     text-align: center;
+    padding-bottom: 16px;
 }
 
 .section_2_wrapper_body p {
@@ -179,6 +184,7 @@
     margin: auto;
     /* width: 100%; */
     padding: 80px 0;
+    width: 90%;
 }
 
 .secion_3_wrapper h3 {
@@ -215,7 +221,7 @@
     background-size: cover;
 }
 .section_3_img_4{
-    background-image: url(./image/for_card.jpg);
+    background-image: url(./image/for_card_yong.jpg);
     /* width: 20%; */
     background-position: center;
     background-size: cover;
@@ -258,10 +264,19 @@
     max-width: 515px;
     position: relative;
     left: 50px;
+    /* top: 50px; */
     padding: 40px 0 40px 20px;
+    margin: auto;
+}
+.section_3_lowerside_txt h5{
+    padding-bottom: 24px;
+}
+.section_3_lowerside_txt h3{
+    padding-bottom: 24px;
 }
 .section_3_lowerside_image img{
     width: 100%;
+    padding: 80px 0px;
 
 }
 
@@ -334,5 +349,19 @@
     }
     .section_2_txt{
         padding-top: 20px;
+    }
+    .section_2_txt pre{
+        padding-bottom: 40px;
+    }
+    .section_1_bgimg h2{
+        padding: 180px 0px;
+    }
+    .section_2_wrapper{
+        flex-wrap: wrap-reverse !important;
+    }
+    .section_3_lowerside_txt{
+        left: 0px; 
+     top: 0px;
+    padding:0px;
     }
 }
