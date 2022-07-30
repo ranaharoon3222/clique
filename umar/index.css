@@ -364,4 +364,10 @@
      top: 0px;
     padding:0px;
     }
+    .last_section_txt h5{
+        padding-top: 117px;
+    }
+    .last_section_txt h3{
+        padding-bottom: 117px;
+    }
 }
