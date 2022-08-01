@@ -6,7 +6,7 @@
       display: none;
     }
     .banner-wrap{
-      background-image: url("/images/Page2Images/responsiveImages/sec3.jpg");
+      background-image: url("./images/Page2Images/responsiveImages/sec3.jpg");
       background-size: cover;
       padding: 170px 0px;
       background-position: center;
