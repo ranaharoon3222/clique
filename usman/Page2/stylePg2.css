@@ -124,7 +124,7 @@
 }
 
 .section-3-pg2{
-  margin-top: 120px;
+  padding: 185px 0px;
 }
 .sec3-content-pg2 h2{
   color: #151515;
@@ -180,11 +180,9 @@
 
 .section-5-pg2{
   background-color: #151515;
-  height: 45vh;
+  padding: 85px 0px;
 }
-.sec5-content-pg2{
-  margin-top: 90px;
-}
+
 .sec5-content-pg2 h3{
   text-align: center;
   align-items: center;
@@ -214,8 +212,11 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #151515;
-  margin-top: 20px;
-  margin-left: 570px;
+  display: flex;
+justify-content: center;
+margin: auto;
+  
+margin-top: 20px;
 }
 
 
