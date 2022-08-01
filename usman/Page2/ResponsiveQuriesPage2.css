@@ -8,12 +8,12 @@
     .banner-wrap{
       background-image: url("/images/Page2Images/responsiveImages/sec3.jpg");
       background-size: cover;
-      height: 70vh;
+      padding: 170px 0px;
       background-position: center;
     }
     .banner-wrap h2{
       color: #FFFFFF; 
-      padding-top: 200px;
+      
       text-align: center;
     }
     .banner-wrap h5{
@@ -23,7 +23,8 @@
   
     }
     .banner-wrap2{
-      padding-left: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
     }
     
     
@@ -38,10 +39,7 @@
       margin: auto;
       margin-top: 30px;
     }
-    .section-5-pg2{
-        height: 55vh;
-        margin-top: 90px;
-    }
+    
   
   
   
