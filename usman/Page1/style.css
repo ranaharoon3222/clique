@@ -203,10 +203,12 @@ img {
   color: white;
   background-color: transparent;
   border: none;
-  text-decoration: underline;
+  border-bottom: 1px solid;
+text-align: left;
   text-transform: uppercase;
   font-size: 14px;
-  margin: 20px 0px 0px 0px;
+  margin: 15px 0px 0px 0px;
+
 }
 
 
@@ -215,6 +217,9 @@ img {
   background-color: var(--sec5Color);
   margin-top: 60px;
   padding: 80px 0px;
+}
+.sec5-content{
+  padding-top: 60px;
 }
 
 .sec5-content h3 {
@@ -296,7 +301,7 @@ img {
 .sec6-content button {
   color: var(--whiteColor);
   height: 40px;
-  width: 163px;
+  width: 185px;
   background-color: var(--sec5Color);
 
   font-weight: 400;
