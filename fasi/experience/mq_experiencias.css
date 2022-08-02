@@ -1,0 +1,54 @@
+@media all and (max-width:768px) {
+    .comparte {
+        text-align: left;
+        margin-bottom: 80px;
+        width: 100%;
+    }
+
+    .experience {
+        text-align: left;
+    }
+
+    .upper_fig_p {
+        display: none;
+    }
+
+    .upper_fig2_icons {
+        text-align: left;
+        /* margin-left: 0px; */
+    }
+
+    #icons {
+        display: none;
+    }
+
+    #para_2 {
+        display: none;
+    }
+
+    .second_navbar {
+        display: none;
+    }
+
+    #para_1 {
+        text-align: center;
+        width: 100%;
+        
+    }
+
+    .logo {
+
+        text-align: center;
+    }
+
+    .last_footer_icon {
+        text-align: left;
+    }
+
+    .card {
+        margin:10px 0;
+    }
+
+    
+
+}
