@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'AmarilloUSAF';
+    src: url('AmarilloUSAF.woff2') format('woff2'),
+        url('AmarilloUSAF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pixellari';
+    src: url('Pixellari.woff2') format('woff2'),
+        url('Pixellari.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
