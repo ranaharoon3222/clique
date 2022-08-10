@@ -57,7 +57,7 @@
     font-weight: 400;
 }
 .lower_side .pp3{
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
     color: #666666;
     font-family: lato;
     font-size: 16px;
@@ -102,5 +102,8 @@
         margin-bottom: 20px;
         margin-top: -10px;
     }
+    /* .pp3{
+        padding-bottom: 0px !important;
+    } */
 
 }
