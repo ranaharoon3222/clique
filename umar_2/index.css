@@ -67,6 +67,7 @@
     width: 100%;
 }
 .lower_side label{
+    margin-bottom: 3px;
     color: #666666;
     display: flex;
     font-family: lato;
