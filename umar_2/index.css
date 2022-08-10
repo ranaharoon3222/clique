@@ -3,3 +3,99 @@
     padding: 0;
     box-sizing: border-box;
 }
+.uperside{
+    background-image: url(./image/Frame\ 8.jpg);
+    color: white;
+    text-align: center;
+}
+.wraper{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+.uperside h2{
+    padding: 125px 0px 24px 0px;
+    font-family: primary;
+    font-size: 40px;
+    font-weight: 400;
+}
+.uperside p{
+    font-family: lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+.uperside .p1{
+    padding: 24px 0px;
+}
+.uperside .p2{
+    padding-bottom: 125px;
+}
+.lower_side h3{
+    padding: 80px 0px 40px 0px;
+    font-family: primary;
+    font-size: 32px;
+    font-weight: 400;
+}
+.lower_side h5{
+    padding-bottom: 16px;
+    font-family: primary;
+    font-size: 14px;
+    font-weight: 400;
+}
+.lower_side .pp1{
+    padding-bottom: 40px;
+    color: #666666;
+    font-family: lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+.lower_side .pp2{
+    padding-bottom: 4px;
+    color: #666666;
+    font-family: lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+.lower_side .pp3{
+    padding-bottom: 80px;
+    color: #666666;
+    font-family: lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+.lower_side form{
+    width: 100%;
+}
+.lower_side label{
+    color: #666666;
+    display: flex;
+}
+.lower_side input{
+    padding: 5px 0px;
+    width: 90%;
+    margin-bottom: 25px;
+}
+.lower_side textarea{
+    width: 90%;
+}
+.lower_side button{
+    width: 90%;
+    background-color: #666666;
+    padding: 12px 0px;
+    border: none;
+    margin: 30px 0px 80px 0px;
+    color: white;
+}
+@media all and  (max-width: 768px){
+    span{
+        display: block;
+        background-color: #666666;
+        height: 4px;
+        width: 40%;
+        margin: auto;
+        border-radius: 25px;
+        margin-bottom: 20px;
+        margin-top: -10px;
+    }
+
+}
